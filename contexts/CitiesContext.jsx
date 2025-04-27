@@ -6,7 +6,9 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = import.meta.env.PROD
+  ? "https://worldwise-project-1.onrender.com/api"
+  : "http://localhost:8000/api";
 
 const CitiesContext = createContext();
 const initialState = {
