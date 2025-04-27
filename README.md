@@ -11,4 +11,4 @@ WorldWise is a travel tracking app built with React. It helps users keep track o
 
 5. Responsive design to support all screen sizes
 
-E ror handling and loading states for a better user experience
+6. Error handling and loading states for a better user experience
