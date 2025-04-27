@@ -76,7 +76,6 @@ function Form() {
       notes,
       position: { lat, lng },
     };
-
     await createCity(newCity);
     navigate("/app/cities");
   }
